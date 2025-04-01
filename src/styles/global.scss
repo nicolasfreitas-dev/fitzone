@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root {
+    /* Fonte */
+    --primaryFont: "Rubik", sans-serif;
+
+    /* Paleta de Cores */
+    --primary: #FFFFFF;
+    --secondary: #212121;
+    --terciary: #FAFAFA;
+    --quaternary: #9E9E9E;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--primary);
+    
+    font-size: 1.6rem;
+    font-family: var(--primaryFont);
+}
