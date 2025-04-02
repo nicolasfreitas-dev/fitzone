@@ -6,16 +6,16 @@
 }
 
 :root {
-    /* Fonte */
     --primaryFont: "Rubik", sans-serif;
 
-    /* Paleta de Cores */
-    --primary: #FFFFFF;
-    --secondary: #212121;
-    --terciary: #FAFAFA;
-    --quaternary: #9E9E9E;
+    --primary-white: #FFFFFF;
+    --secondary-white: #FAFAFA;
 
-    /* Varíaveis CSS */
+    --primary-black: #000000;
+    --secondary-black: #212121;
+
+    --primary-gray: #9E9E9E;
+
     --header-height: 6rem;
 }
 
@@ -32,7 +32,7 @@ html {
 }
 
 body {
-    background-color: var(--primary);
+    background-color: var(--primary-white);
     
     font-size: 1.6rem;
     font-family: var(--primaryFont);
