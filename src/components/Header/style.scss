@@ -4,18 +4,19 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    height: 6rem;
+    height: var(--header-height);
 
-    padding: 0 2rem;
+    padding: 0 6rem;
 
-    background-color: var(--secondary);
+    background-color: var(--primary-black);
 
-    color: var(--terciary);
+    color: var(--secondary-white);
 
     .header__logo {
         font-size: 2rem;
@@ -25,11 +26,24 @@
 
     }
 
+    .header__navbar {
+        display: flex;
+        align-items: center;
+        gap: 2.4rem;
+
+    .header__navbar-item {
+        cursor: pointer;
+
+        }
+    }
+
     .header__btn {
         border: 0;
         border-radius: 0.8rem;
 
         padding: 1rem 2rem;
+
+        font-weight: bold;
 
         cursor: pointer;
     }
