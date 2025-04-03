@@ -20,7 +20,7 @@ export default function Header() {
                         <a href="#">Página inicial</a>
                     </li>
                     <li className="header__navbar-item">
-                        <a href="#">Sobre</a>
+                        <a href="#">Sobre nós</a>
                     </li>
                     <li className="header__navbar-item">
                         <a href="#">Serviços</a>
@@ -48,7 +48,7 @@ export default function Header() {
                                 <a href="#">Página inicial</a>
                             </li>
                             <li className="header__menu-item">
-                                <a href="#">Sobre</a>
+                                <a href="#">Sobre nós</a>
                             </li>
                             <li className="header__menu-item">
                                 <a href="#">Serviços</a>
