@@ -1,0 +1,31 @@
+.achievements {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    align-items: center;
+    justify-items: center;
+
+    height: 15.5rem;
+
+    color: var(--secondary-white);
+    
+    text-align: center;
+
+    background-color: var(--secondary-black);
+
+    .achievements__item {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.8rem;
+    }
+
+    .achievements__item-number {
+        font-size: 3.2rem;
+        font-weight: bold;
+
+    }
+}
