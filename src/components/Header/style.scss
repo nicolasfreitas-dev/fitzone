@@ -47,4 +47,61 @@
 
         cursor: pointer;
     }
+
+    .header__menu-toggle {
+        cursor: pointer;
+
+        color: var(--secondary-white);
+        
+    }
+
+    .header__sidebar {
+        display: none;
+
+        max-width: 28rem;
+        width: 100%;
+        height: 100%;
+
+        position: fixed;
+        top: 0;
+        right: 0;
+
+        padding: 1rem 2rem;
+
+        background-color: var(--secondary-black);
+
+    }
+
+    .header__menu {
+        display: grid;
+        grid-template-rows: auto;
+        row-gap: 2rem;
+
+    }
+
+    .header__menu-item a {
+        text-decoration: none;
+
+        color: var(--secondary-white);
+
+        cursor: pointer;
+
+    }
+
+    .header__menu-close {
+        position: relative;
+        top: 0;
+        left: calc(100% - 15px);
+        z-index: 1;
+
+        cursor: pointer;
+
+    }
+
+
+    .header__sidebar--visible {
+        display: block;
+
+    }
+
 }
