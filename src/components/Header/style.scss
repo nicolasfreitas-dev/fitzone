@@ -12,7 +12,7 @@
 
     height: var(--header-height);
 
-    padding: 0 6rem;
+    padding: 0 4rem;
 
     background-color: var(--primary-black);
 
@@ -31,7 +31,11 @@
         align-items: center;
         gap: 2.4rem;
 
-    .header__navbar-item {
+    .header__navbar-item a {
+        text-decoration: none;
+
+        color: var(--secondary-white);
+
         cursor: pointer;
 
         }
@@ -68,14 +72,18 @@
 
         padding: 1rem 2rem;
 
-        background-color: var(--secondary-black);
+        background-color: var(--terciary-black);
+
+    }
+
+    .header__sidebar--visible {
+        display: block;
 
     }
 
     .header__menu {
         display: grid;
-        grid-template-rows: auto;
-        row-gap: 2rem;
+        row-gap: 2.5rem;
 
     }
 
@@ -97,11 +105,4 @@
         cursor: pointer;
 
     }
-
-
-    .header__sidebar--visible {
-        display: block;
-
-    }
-
 }

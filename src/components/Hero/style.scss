@@ -1,10 +1,3 @@
-.hero, .hero__banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-
-}
-
 .hero {
     min-height: 100vh;
 
@@ -16,10 +9,14 @@
     background-position: center calc(100% + 100px);
     background-repeat: no-repeat;
 
-    padding: 8.7rem 6rem 0rem 6rem;
+    padding: 8.7rem 4rem 0rem 4rem;
 
     .hero__banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
         gap: 2.4rem;
+
     }
 
     .hero__banner-title {
