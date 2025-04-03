@@ -1,6 +1,7 @@
+import ChooseUs from "./components/ChooseUs";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Status from "./components/Status";
+import Achievements from "./components/Achievements";
 
 export default function App() {
     return (
@@ -8,7 +9,8 @@ export default function App() {
             <Header />
             <main>
                 <Hero />
-                <Status />
+                <Achievements />
+                <ChooseUs />
             </main>
         </>
     )
