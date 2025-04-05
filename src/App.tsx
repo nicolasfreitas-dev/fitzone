@@ -1,4 +1,4 @@
-import ChooseUs from "./components/ChooseUs";
+import Modalities from "./components/Modalities";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Achievements from "./components/Achievements";
@@ -10,7 +10,7 @@ export default function App() {
             <main>
                 <Hero />
                 <Achievements />
-                <ChooseUs />
+                <Modalities />
             </main>
         </>
     )
