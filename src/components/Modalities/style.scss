@@ -1,0 +1,27 @@
+.choose-us {
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 0 4rem;
+
+    .choose-us__title {
+        font-size: 4rem;
+        
+        color: var(--secondary-gray);
+
+    }
+
+    .choose-us__text {
+        max-width: 70rem;
+
+        text-align: center;
+
+        color: var(--primary-gray);
+
+    }
+}

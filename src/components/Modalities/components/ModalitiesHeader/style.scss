@@ -1,0 +1,30 @@
+.choose-us__header {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    margin-bottom: 1.2rem;
+
+    .choose-us__header-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 4rem;
+        height: 4rem;
+
+        border: 0;
+        border-radius: 100%;
+
+        background-color: var(--secondary-gray);
+    }
+
+    .choose-us__header-name {
+        font-size: 2rem;
+        font-weight: bold;
+
+        color: var(--secondary-gray);
+    }
+}
