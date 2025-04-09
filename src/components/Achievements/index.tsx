@@ -8,8 +8,8 @@ export default function Achievements() {
                 <p className="achievements__item-text">Anos de serviço</p>
             </div>
             <div className="achievements__item">
-                <span className="achievements__item-number">10+</span>
-                <p className="achievements__item-text">Profissionais</p>
+                <span className="achievements__item-number">20+</span>
+                <p className="achievements__item-text">Profissionais capacitados</p>
             </div>
             <div className="achievements__item">
                 <span className="achievements__item-number">731+</span>
