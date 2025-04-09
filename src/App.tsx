@@ -1,7 +1,10 @@
-import Modalities from "./components/Modalities";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Achievements from "./components/Achievements";
+import About from "./components/About";
+import Modalities from "./components/Modalities";
+import Plans from "./components/Plans";
+
 
 export default function App() {
     return (
@@ -10,7 +13,9 @@ export default function App() {
             <main>
                 <Hero />
                 <Achievements />
+                <About />
                 <Modalities />
+                <Plans />
             </main>
         </div>
     )
