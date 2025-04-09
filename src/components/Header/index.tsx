@@ -17,16 +17,16 @@ export default function Header() {
             {windowSize >= 768 ? (
                 <nav className="header__navbar">
                     <li className="header__navbar-item">
-                        <a href="#">Página inicial</a>
+                        <a href="#home">Página inicial</a>
                     </li>
                     <li className="header__navbar-item">
-                        <a href="#">Sobre nós</a>
+                        <a href="#about">Sobre nós</a>
                     </li>
                     <li className="header__navbar-item">
-                        <a href="#">Serviços</a>
+                        <a href="#modalities">Modalidades</a>
                     </li>
                     <li className="header__navbar-item">
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                     <button className="header__btn">Área do cliente</button>
                 </nav>
@@ -45,16 +45,16 @@ export default function Header() {
                         />
                         <nav className="header__menu">
                             <li className="header__menu-item">
-                                <a href="#">Página inicial</a>
+                                <a href="#home">Página inicial</a>
                             </li>
                             <li className="header__menu-item">
-                                <a href="#">Sobre nós</a>
+                                <a href="#about">Sobre nós</a>
                             </li>
                             <li className="header__menu-item">
-                                <a href="#">Serviços</a>
+                                <a href="#modalities">Modalidades</a>
                             </li>
                             <li className="header__menu-item">
-                                <a href="#">Contato</a>
+                                <a href="#contact">Contato</a>
                             </li>
                             <button className="header__btn">
                                 Área do cliente
