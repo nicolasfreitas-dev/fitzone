@@ -1,0 +1,72 @@
+.cardPlan {
+    max-width: 41rem;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid var(--terciary-white);
+    border-radius: 2rem;
+
+    box-shadow: var(--shadow);
+
+    padding: 2rem;
+
+    .cardPlan__name {
+        font-size: 1.6rem;
+        font-weight: 500;
+
+        color: var(--terciary-gray);
+
+        padding-bottom: 0.8rem;
+    }
+
+    .cardPlan__pricing {
+        font-size: 4rem;
+        font-weight: bold;
+
+        color: var(--secondary-gray);
+
+        padding-bottom: 1.6rem;
+    }
+
+    .cardPlan__description {
+        font-size: 1.4rem;
+
+        text-align: justify;
+
+        color: var(--primary-gray);
+
+        padding-bottom: 3.2rem;
+    }
+
+    .cardPlan__benefits {
+        padding-bottom: 6rem;
+
+        .cardPlan__benefits-item {
+            font-size: 1.6rem;
+
+            color: var(--terciary-gray);
+
+            padding-bottom: 1.2rem;
+        }
+    }
+
+    .cardPlan__button {
+        width: 100%;
+        height: 6rem;
+
+        border: none;
+        border-radius: 2rem;
+
+        font-size: 1.8rem;
+        font-weight: bold;
+
+        color: var(--secondary-white);
+
+        background-color: var(--terciary-black);
+
+        cursor: pointer;
+
+    }
+}
