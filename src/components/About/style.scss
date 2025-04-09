@@ -1,0 +1,42 @@
+.about {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .about__title {
+        font-size: 4rem;
+        
+        color: var(--secondary-gray);
+    }
+
+    .about__banner {
+        display: flex;
+        justify-content: space-evenly;
+
+        width: 100%;
+
+        .about__banner-text {
+            max-width: 60rem;
+
+            text-align: justify;
+    
+            color: var(--primary-gray);
+
+        }
+    
+        .about__banner-img {
+            max-width: 50rem;
+            max-height: 50rem;
+
+            border: 0; 
+            border-radius: 2rem;
+
+            box-shadow: var(--shadow);
+        }
+    }
+
+}
