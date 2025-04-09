@@ -11,7 +11,7 @@ export default function Hero() {
                     Sunt, voluptatibus est. Voluptates, dignissimos minus.
                     Eveniet!
                 </p>
-                <button className="hero__banner-btn">Ver planos</button>
+                <button className="hero__banner-btn"><a href="#plans">Ver planos</a></button>
                 <div className="hero__banner-social">
                     <TwitterLogo className="hero__banner-social-item" size={25} />
                     <FacebookLogo className="hero__banner-social-item" size={25} />
