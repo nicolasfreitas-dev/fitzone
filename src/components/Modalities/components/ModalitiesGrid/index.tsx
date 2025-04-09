@@ -62,6 +62,7 @@ export default function ModalitiesGrid() {
                     className="modalities__grid-img--size"
                     src={modalitie1}
                     alt="modalities image"
+                    loading="lazy"
                 />
             </div>
             <div className="modalities__grid-4 modalities__grid--size">
@@ -69,6 +70,7 @@ export default function ModalitiesGrid() {
                     className="modalities__grid-img--size"
                     src={modalitie2}
                     alt="modalities image"
+                    loading="lazy"
                 />
             </div>
             <div className="modalities__grid-7 modalities__grid--size">
@@ -76,6 +78,7 @@ export default function ModalitiesGrid() {
                     className="modalities__grid-img--size"
                     src={modalitie3}
                     alt="modalities image"
+                    loading="lazy"
                 />
             </div>
         </div>
