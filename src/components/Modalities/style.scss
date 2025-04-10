@@ -14,7 +14,7 @@
         
         color: var(--secondary-gray);
 
-        padding-bottom: 6rem;
+        padding-bottom: 2rem;
     }
 
     .modalities__text {
@@ -30,10 +30,10 @@
 
 @media (width <= 768px) {
     .modalities {
-        padding: 4rem 4rem;
+        padding: 4rem;
 
         .modalities__title, .modalities__text {
-            margin-bottom: 4rem;
+            padding-bottom: 4rem;
         }
 
     }
