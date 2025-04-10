@@ -41,14 +41,13 @@
     }
 
     .cardPlan__benefits {
-        padding-bottom: 6rem;
+        padding-bottom: 12rem;
 
         .cardPlan__benefits-item {
             font-size: 1.6rem;
 
             color: var(--terciary-gray);
 
-            padding-bottom: 1.2rem;
         }
     }
 
@@ -68,5 +67,14 @@
 
         cursor: pointer;
 
+    }
+}
+
+@media (width <= 412px) {
+   .cardPlan {
+        .cardPlan__benefits {
+            padding-bottom: 6rem;
+
+        }
     }
 }
