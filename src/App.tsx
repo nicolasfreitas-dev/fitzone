@@ -4,6 +4,7 @@ import Achievements from "./components/Achievements";
 import About from "./components/About";
 import Modalities from "./components/Modalities";
 import Plans from "./components/Plans";
+import Footer from "./components/Footer";
 
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
                 <Modalities />
                 <Plans />
             </main>
+            <Footer />
         </div>
     )
 }
