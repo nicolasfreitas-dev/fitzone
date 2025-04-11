@@ -9,6 +9,7 @@ export default function FooterContact() {
         <div className="footer__contact">
             <a
                 className="footer__contact-title"
+                href="#home"
                 onClick={(e) => handleScroll(e, "home")}
             >
                 FitZone

@@ -42,6 +42,12 @@
             border-radius: 2rem;
 
             box-shadow: var(--shadow);
+
+            transition: all ease 0.3s;
+
+            &:hover {
+                transform: rotate(5deg);
+            }
         }
     }
 }

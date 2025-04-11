@@ -23,8 +23,8 @@ export default function About() {
                     src={aboutImg}
                     alt="fitzone trainer and student"
                     loading="lazy"
-                    width={1152}
-                    height={768}
+                    width={500}
+                    height={500}
                 />
             </div>
         </section>

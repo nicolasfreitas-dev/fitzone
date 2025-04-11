@@ -56,6 +56,12 @@
             border-radius: 0.8rem;
     
             cursor: pointer;
+
+            transition: all ease 0.3s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
     
         }
 
@@ -67,6 +73,8 @@
 
             margin-top: .8rem;
 
+            transition: all ease 0.3s;
+
             &-item {
                 width: 2.5rem;
                 height: 2.5rem;
@@ -76,7 +84,12 @@
                 margin-right: 2.4rem;
         
                 cursor: pointer;
-        
+
+                &:hover {
+                    transform: scale(1.1);
+
+                }
+    
             }
         }
     }
