@@ -19,8 +19,8 @@ export default function ModalitiesGrid() {
                     modalitieImg={<Barbell size={24} color="#fafafa" />}
                 />
                 <p className="modalities__grid-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga, ipsam.
+                    Transforme seu corpo com nosso programa completo de
+                    musculação.
                 </p>
             </div>
             <div className="modalities__grid-2 modalities__grid--size">
@@ -29,8 +29,9 @@ export default function ModalitiesGrid() {
                     modalitieImg={<BoxingGlove size={24} color="#fafafa" />}
                 />
                 <p className="modalities__grid-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga, ipsam.
+                    Descubra a potência do boxe em treinos dinâmicos que
+                    combinam condicionamento cardiovascular e desenvolvimento
+                    muscular.
                 </p>
             </div>
             <div className="modalities__grid-5 modalities__grid--size">
@@ -41,8 +42,8 @@ export default function ModalitiesGrid() {
                     }
                 />
                 <p className="modalities__grid-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga, ipsam.
+                    Mergulhe em nossa piscina semiolímpica e experimente um dos
+                    exercícios mais completos.
                 </p>
             </div>
             <div className="modalities__grid-6 modalities__grid--size">
@@ -53,8 +54,8 @@ export default function ModalitiesGrid() {
                     }
                 />
                 <p className="modalities__grid-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fuga, ipsam.
+                    Encontre equilíbrio entre corpo e mente em nossas aulas de
+                    yoga.
                 </p>
             </div>
             <div className="modalities__grid-3 modalities__grid--size">
