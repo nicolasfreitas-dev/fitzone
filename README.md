@@ -27,7 +27,7 @@
 <h2 id="#about">📌 Sobre o projeto</h2>
 
 <p>
-    Website para uma academia com um design simples e moderno. Apresentando um pouco da história da academia, suas conquistas, modalidades ofertadas e planos com pacotes mensais e anuais.
+    Landing page para uma academia com um design atraente. Apresentando um pouco da história da academia, suas conquistas, modalidades esportivas ofertadas e planos com pacotes mensais e anuais.
 </p>
 
 [![project][PROJECT__BADGE]][PROJECT__URL]
@@ -46,7 +46,7 @@ Para rodar este projeto na sua máquina será necessária que tenha instalado No
 Como clonar o projeto na sua máquina
 
 ```bash
-git clone https://github.com/nicolasfreitas-dev/fitzone
+git clone https://github.com/nicolasfreitas-dev/fitzone.git
 ```
 
 <h3>Acesse o diretório do projeto</h3>
