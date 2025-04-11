@@ -8,11 +8,11 @@ type ModalitiesHeaderProps = {
 
 export default function ModalitiesHeader({ name, modalitieImg }: ModalitiesHeaderProps) {
     return (
-        <div className="choose-us__header">
-            <div className="choose-us__header-img">
+        <div className="modalities__header">
+            <div className="modalities__header-img">
                 { modalitieImg }
             </div>
-            <h3 className="choose-us__header-name">{ name }</h3>
+            <h3 className="modalities__header-name">{ name }</h3>
         </div>
     );
 };
