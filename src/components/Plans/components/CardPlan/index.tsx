@@ -46,8 +46,6 @@ export default function CardPlan({ planName, planDescription, planValue, fidelit
               ]
             : [];
 
-            console.log(`[${planName}]`);
-
     return (
         <div
             className={`cardPlan ${

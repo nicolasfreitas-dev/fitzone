@@ -1,10 +1,12 @@
+import { RefObject } from "react";
+
 type SmoothScrollProps = {
-    toggleMenu?: (isOpen: boolean) => void;
+    sidebarRef?: RefObject<HTMLElement | null>;
 };
 
-export const useSmoothScroll = ({ toggleMenu }: SmoothScrollProps = {}) => {
+export const useSmoothScroll = ({ sidebarRef }: SmoothScrollProps = {}) => {
     const handleScroll = (
-        e: React.MouseEvent<HTMLAnchorElement>,
+        e: React.MouseEvent<HTMLElement>,
         targetId: string
     ) => {
         e.preventDefault();
@@ -13,8 +15,8 @@ export const useSmoothScroll = ({ toggleMenu }: SmoothScrollProps = {}) => {
             targetElement.scrollIntoView({ behavior: "smooth" });
         }
 
-        if (toggleMenu) {
-            toggleMenu(false);
+        if (sidebarRef?.current) {
+            sidebarRef.current.classList.remove("header__sidebar--visible");
         }
     };
 

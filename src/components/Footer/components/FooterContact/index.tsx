@@ -1,10 +1,18 @@
 import { FacebookLogo, InstagramLogo, TwitterLogo } from "@phosphor-icons/react"
+import { useSmoothScroll } from "../../../../hooks/useSmoothScroll";
 import "./style.scss"
 
 export default function FooterContact() {
+    const { handleScroll } = useSmoothScroll();
+    
     return (
         <div className="footer__contact">
-            <span className="footer__contact-title">FitZone</span>
+            <a
+                className="footer__contact-title"
+                onClick={(e) => handleScroll(e, "home")}
+            >
+                FitZone
+            </a>
             <p className="footer__contact-text">
                 Academia FitZone: seu espaço de transformação física e bem-estar
                 desde 2018. Venha conhecer nossas instalações e descubra por que

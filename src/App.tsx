@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Achievements from "./components/Achievements";
 import About from "./components/About";
 import Modalities from "./components/Modalities";
+import Contact from "./components/Contact";
 import Plans from "./components/Plans";
 import Footer from "./components/Footer";
 
@@ -17,6 +18,7 @@ export default function App() {
                 <About />
                 <Modalities />
                 <Plans />
+                <Contact />
             </main>
             <Footer />
         </div>

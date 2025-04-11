@@ -1,11 +1,9 @@
-import { useState } from "react";
-
 export const useMenu = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const handleSidebarOpen = (sidebarOpen: HTMLElement | null) => {
+        if (!sidebarOpen) return
 
-    const handleMenuOpen = (isOpen: boolean) => {
-        setIsMenuOpen(isOpen);
+        sidebarOpen.classList.toggle("header__sidebar--visible");
     };
 
-    return { isMenuOpen, setIsMenuOpen, handleMenuOpen };
+    return { handleSidebarOpen };
 };
