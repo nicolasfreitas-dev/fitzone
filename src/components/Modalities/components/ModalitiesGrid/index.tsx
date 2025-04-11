@@ -5,9 +5,9 @@ import {
     PersonSimpleSwim,
     PersonSimpleTaiChi,
 } from "@phosphor-icons/react";
-import modalitie3 from "../../../../assets/boxing.jpg";
-import modalitie2 from "../../../../assets/natacao.jpg";
-import modalitie1 from "../../../../assets/yoga.jpg";
+import modalitie3 from "../../../../assets/boxing.webp";
+import modalitie2 from "../../../../assets/natacao.webp";
+import modalitie1 from "../../../../assets/yoga.webp";
 import "./style.scss";
 
 export default function ModalitiesGrid() {
@@ -64,6 +64,8 @@ export default function ModalitiesGrid() {
                     src={modalitie1}
                     alt="modalities image"
                     loading="lazy"
+                    width={1152}
+                    height={768}
                 />
             </div>
             <div className="modalities__grid-4 modalities__grid--size">
@@ -72,6 +74,8 @@ export default function ModalitiesGrid() {
                     src={modalitie2}
                     alt="modalities image"
                     loading="lazy"
+                    width={1150}
+                    height={768}
                 />
             </div>
             <div className="modalities__grid-7 modalities__grid--size">
@@ -80,6 +84,8 @@ export default function ModalitiesGrid() {
                     src={modalitie3}
                     alt="modalities image"
                     loading="lazy"
+                    width={1150}
+                    height={768}
                 />
             </div>
         </div>
