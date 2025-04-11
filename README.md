@@ -3,8 +3,9 @@
 [SASS__BADGE]: https://img.shields.io/badge/sass-F8F9FA?style=for-the-badge&logo=sass
 [VITE__BADGE]: https://img.shields.io/badge/Vite-0F0F0F?style=for-the-badge&logo=vite
 [PHOSPHOR_ICONS__BADGE]: https://img.shields.io/badge/PHOSPHOR_ICONS-C4E456?style=for-the-badge&logo=PHOSPHOR_ICONS
-[VISIT_PROJECT__BADGE]: https://img.shields.io/badge/VISITE_ESTE_PROJETO-0F0F0F?style=for-the-badge&logo=VISIT_PROJECT
-[PROJECT__URL]: https://github.com/Fernanda-Kipper/
+[PROJECT__BADGE]: https://img.shields.io/badge/VISITE_ESTE_PROJETO-0F0F0F?style=for-the-badge&logo=VISIT_PROJECT
+[PROJECT__URL]: https://fitzone-page.vercel.app/
+
 
 <h1 align="center" style="font-weight: bold;">FitZone 💻</h1>
 
@@ -16,25 +17,20 @@
 
 <p align="center">
  <a href="#about">Sobre o projeto</a> • 
- <a href="#started">Como utilizar o projeto</a> • 
-  <a href="#started">App Routes</a> • 
-  <a href="#colab">Collaborators</a> •
- <a href="#contribute">Contribute</a>
+ <a href="#started">Como utilizar o projeto</a>
 </p>
 
 <img src="./src/assets/fitzone-home.png" alt="Home page fitzone">
 
 <h4 align="center">🚧 Projeto em construção...  🚧</h4>
 
-<h2>📌 Sobre o projeto</h2>
+<h2 id="#about">📌 Sobre o projeto</h2>
 
 <p>
     Website para uma academia com um design simples e moderno. Apresentando um pouco da história da academia, suas conquistas, modalidades ofertadas e planos com pacotes mensais e anuais.
 </p>
 
-
-![VISIT_PROJECT][VISIT_PROJECT__BADGE]
-
+[![project][PROJECT__BADGE]][PROJECT__URL]
 
 <h2 id="started">🚀 Como utilizar o projeto</h2>
 
