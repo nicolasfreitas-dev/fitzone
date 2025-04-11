@@ -26,9 +26,11 @@ export default function Header() {
                         <a href="#modalities">Modalidades</a>
                     </li>
                     <li className="header__navbar-item">
+                        <a href="#plans">Planos</a>
+                    </li>
+                    <li className="header__navbar-item">
                         <a href="#contact">Contato</a>
                     </li>
-                    <button className="header__btn">Área do cliente</button>
                 </nav>
             ) : (
                 <>
@@ -54,11 +56,11 @@ export default function Header() {
                                 <a href="#modalities">Modalidades</a>
                             </li>
                             <li className="header__menu-item">
+                                <a href="#plans">Planos</a>
+                            </li>
+                            <li className="header__menu-item">
                                 <a href="#contact">Contato</a>
                             </li>
-                            <button className="header__btn">
-                                Área do cliente
-                            </button>
                         </nav>
                     </aside>
                 </>
