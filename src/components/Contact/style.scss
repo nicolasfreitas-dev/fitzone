@@ -1,0 +1,50 @@
+.contact {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    box-shadow: var(--shadow);
+
+    &__img {
+        display: block;
+
+        width: 100%;
+        height: auto;
+
+        max-height: 42.5rem;
+
+        object-fit: cover;
+    }
+
+    &__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(17, 17, 17, 0.65);
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+        width: 100%;
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        text-align: center;
+
+        color: var(--secondary-white);
+
+        &-title, &-number {
+            font-size: 3rem;
+            font-weight: bold;
+
+        }
+    }
+}
