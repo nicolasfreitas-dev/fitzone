@@ -16,7 +16,7 @@ export default function Achievements() {
                 <p className="achievements__item-text">Usuários satisfeitos</p>
             </div>
             <div className="achievements__item">
-                <span className="achievements__item-number">5</span>
+                <span className="achievements__item-number">+100</span>
                 <p className="achievements__item-text">Unidades</p>
             </div>
         </section>
