@@ -15,7 +15,7 @@ export default function Header() {
         <header className="header">
             <span className="header__logo">FitZone</span>
             {windowSize >= 768 ? (
-                <nav className="header__navbar">
+                <ul className="header__navbar">
                     <li className="header__navbar-item">
                         <a href="#home">Página inicial</a>
                     </li>
@@ -31,7 +31,7 @@ export default function Header() {
                     <li className="header__navbar-item">
                         <a href="#contact">Contato</a>
                     </li>
-                </nav>
+                </ul>
             ) : (
                 <>
                     <List
@@ -45,7 +45,7 @@ export default function Header() {
                             size={25}
                             onClick={() => handleSidebarVisible()}
                         />
-                        <nav className="header__menu">
+                        <ul className="header__menu">
                             <li className="header__menu-item">
                                 <a href="#home">Página inicial</a>
                             </li>
@@ -61,7 +61,7 @@ export default function Header() {
                             <li className="header__menu-item">
                                 <a href="#contact">Contato</a>
                             </li>
-                        </nav>
+                        </ul>
                     </aside>
                 </>
             )}
