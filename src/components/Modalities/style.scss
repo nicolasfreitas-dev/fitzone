@@ -7,9 +7,9 @@
     align-items: center;
     justify-content: space-evenly;
 
-    padding: 0 4rem;
+    padding: 7rem 4rem;
 
-    .modalities__title {
+    &__title {
         font-size: 4rem;
         
         color: var(--secondary-gray);
@@ -17,7 +17,7 @@
         padding-bottom: 2rem;
     }
 
-    .modalities__text {
+    &__text {
         max-width: 70rem;
 
         text-align: center;
@@ -32,7 +32,7 @@
     .modalities {
         padding: 4rem;
 
-        .modalities__title, .modalities__text {
+        &__title, &__text {
             padding-bottom: 4rem;
         }
 

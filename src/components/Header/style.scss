@@ -18,7 +18,7 @@
 
     color: var(--secondary-white);
 
-    .header__logo {
+    &__logo {
         font-size: 2rem;
         font-weight: bold;
 
@@ -26,22 +26,22 @@
 
     }
 
-    .header__navbar {
+    &__navbar {
         display: flex;
         align-items: center;
         gap: 2.4rem;
 
-    .header__navbar-item a {
-        text-decoration: none;
+        &-item a {
+            text-decoration: none;
 
-        color: var(--secondary-white);
+            color: var(--secondary-white);
 
-        cursor: pointer;
+            cursor: pointer;
 
         }
     }
 
-    .header__btn {
+    &__btn {
         border: 0;
         border-radius: 0.8rem;
 
@@ -52,14 +52,14 @@
         cursor: pointer;
     }
 
-    .header__menu-toggle {
+    &__menu-toggle {
         cursor: pointer;
 
         color: var(--secondary-white);
         
     }
 
-    .header__sidebar {
+    &__sidebar {
         display: none;
 
         max-width: 28rem;
@@ -74,26 +74,25 @@
 
         background-color: var(--terciary-black);
 
+        &--visible {
+            display: block;
+
+        }
     }
 
-    .header__sidebar--visible {
-        display: block;
 
-    }
-
-    .header__menu {
+    &__menu {
         display: grid;
         row-gap: 2.5rem;
 
-    }
-
-    .header__menu-item a {
-        text-decoration: none;
-
-        color: var(--secondary-white);
-
-        cursor: pointer;
-
+        &-item a {
+            text-decoration: none;
+    
+            color: var(--secondary-white);
+    
+            cursor: pointer;
+    
+        }
     }
 
     .header__menu-close {

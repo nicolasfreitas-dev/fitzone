@@ -1,4 +1,4 @@
-.choose-us__header {
+.modalities__header {
     width: 100%;
 
     display: flex;
@@ -7,7 +7,7 @@
 
     margin-bottom: 1.2rem;
 
-    .choose-us__header-img {
+    &-img {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -21,7 +21,7 @@
         background-color: var(--secondary-gray);
     }
 
-    .choose-us__header-name {
+    &-name {
         font-size: 2rem;
         font-weight: bold;
 
@@ -30,9 +30,9 @@
 }
 
 @media (width <= 768px) {
-    .choose-us__header {
+    .modalities__header {
 
-        .choose-us__header-img {
+        &-img {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -46,7 +46,7 @@
             background-color: var(--secondary-gray);
     }
 
-        .choose-us__header-name {
+        &-name {
             font-size: 1.8rem;
             font-weight: bold;
     

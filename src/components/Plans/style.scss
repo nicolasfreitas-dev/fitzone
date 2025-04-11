@@ -9,105 +9,21 @@
 
     padding: 7rem 4rem;
 
-    .plans__header {
+    &__header {
         width: 100%;
 
         display: flex;
         align-items: center;
         justify-content: space-between;
 
+        &-title {
+            font-size: 4rem;
+
+            color: var(--secondary-gray);
+        }
     }
 
-    .plans__header-title {
-        font-size: 4rem;
-        
-        color: var(--secondary-gray);
-    }
-
-    .plans__header-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1.6rem;
-
-        max-width: 20rem;
-        width: 100%;
-        height: 5.7rem;
-
-        border: none;
-        border-radius: 2rem;
-
-        box-shadow: var(--shadow);
-
-        padding: 1rem;
-        
-    }
-
-    .plans__header-btn--monthly {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        font-size: 1.6rem;
-        font-weight: bold;
-
-        color: var(--terciary-black);
-        
-        background-color: transparent;
-        
-        border: none;
-        border-radius: 2rem;
-        
-        padding: 1.5rem 4rem 1.5rem 4rem;
-
-        cursor: pointer;
-
-    }
-
-    .plans__header-btn--yearly {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        font-size: 1.6rem;
-        font-weight: bold;
-
-        color: var(--secondary-white);
-        
-        background-color: var(--terciary-black);
-        
-        border: none;
-        border-radius: 2rem;
-        
-        padding: 1.5rem 4rem 1.5rem 4rem;
-
-        cursor: pointer;
-        
-    }
-
-    .plans__header-btn--monthly,
-    .plans__header-btn--yearly {
-        transition: background-color 0.3s ease, color 0.3s ease;
-
-        &:active {
-        transform: scale(0.97);
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    }
-    }
-
-    .plans__header-btn--monthly.active,
-    .plans__header-btn--yearly.active {
-        background-color: var(--terciary-black);
-        color: var(--secondary-white);
-    }
-
-    .plans__header-btn--monthly:not(.active),
-    .plans__header-btn--yearly:not(.active) {
-        background-color: transparent;
-        color: var(--terciary-black);
-    }
-
-    .plans__card {
+    &__card {
         width: 100%;
 
         display: flex;
@@ -119,22 +35,12 @@
 }
 
 @media (max-width: 768px) {
-  .plans__header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2rem;
-  }
+    .plans {
+        &__header {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 2rem;
 
-  .plans__header-btn {
-    width: 100%;
-    height: auto;
-    max-width: none;
-    justify-content: flex-start;
-  }
-
-  .plans__header-btn--monthly,
-  .plans__header-btn--yearly {
-    padding: 1rem 2rem;
-    font-size: 1.4rem;
-  }
+        }
+    }
 }

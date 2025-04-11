@@ -5,9 +5,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 7rem 4rem;
+    padding: 7rem 4rem 0rem 4rem;
 
-    .about__title {
+    &__title {
         font-size: 4rem;
         
         color: var(--secondary-gray);
@@ -15,13 +15,13 @@
         padding-bottom: 3rem;
     }
 
-    .about__banner {
+    &__banner {
         display: flex;
         justify-content: space-evenly;
 
         width: 100%;
 
-        .about__banner-text {
+        &-text {
             max-width: 60rem;
             width: 100%;
 
@@ -31,7 +31,7 @@
 
         }
         
-        .about__banner-img {
+        &-img {
             max-width: 50rem;
 
             width: 100%;
@@ -48,7 +48,7 @@
 
 @media (width < 1280px) {
     .about {
-        .about__banner {
+        &__banner {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: auto;
@@ -59,7 +59,7 @@
 
 @media (width < 768px) {
     .about {
-        .about__banner {
+        &__banner {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             grid-template-rows: auto;

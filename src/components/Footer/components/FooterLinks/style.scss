@@ -1,0 +1,41 @@
+.footer__links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+
+        &-title {
+            font-size: 1.6rem;
+            font-weight: 500;
+            
+            color: var(--secondary-black);
+
+            padding-bottom: 1.2rem;
+
+        }
+
+        &-item {
+            color: var(--secondary-black);
+
+            cursor: pointer;
+            
+        }
+    }
+}
+
+@media (width <= 480px) {
+    .footer__links {
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+
+        &-content {
+
+        }
+    }
+}

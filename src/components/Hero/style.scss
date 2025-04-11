@@ -11,43 +11,42 @@
 
     padding: 8.7rem 4rem 0rem 4rem;
 
-    .hero__banner {
+    &__banner {
         display: flex;
         flex-direction: column;
         justify-content: start;
         gap: 2.4rem;
 
-    }
-
-    .hero__banner-title {
-        color: var(--secondary-white);
-
-        font-size: 6rem;
-    }
-
-    .hero__banner-text {
-        max-width: 51.2rem;
-
-        color: var(--primary-gray);
-
-        font-size: 1.6rem;
+        &-title {
+            color: var(--secondary-white);
     
-    }
-
-    .hero__banner-btn {
-        max-width: 13.1rem;
-
-        margin-top: 4rem;
-
-        padding: 1rem 2rem;
-
-        border: none;
-        border-radius: 0.8rem;
-
-        font-weight: bold;
-
-        cursor: pointer;
-
+            font-size: 6rem;
+        }
+    
+        &-text {
+            max-width: 51.2rem;
+    
+            color: var(--primary-gray);
+    
+            font-size: 1.6rem;
+        
+        }
+    
+        &-btn {
+            max-width: 13.1rem;
+    
+            margin-top: 4rem;
+    
+            padding: 1rem 2rem;
+    
+            border: none;
+            border-radius: 0.8rem;
+    
+            font-weight: bold;
+    
+            cursor: pointer;
+    
+        }
     }
 
     .hero__banner-btn a {
@@ -61,17 +60,17 @@
         cursor: pointer;
     }
 
-    .hero__banner-social {
+    &-social {
         margin-top: .8rem;
 
+        &-item {
+            color: var(--secondary-white);
+    
+            margin-right: 2.4rem;
+    
+            cursor: pointer;
+    
+        }
     }
 
-    .hero__banner-social-item {
-        color: var(--secondary-white);
-
-        margin-right: 2.4rem;
-
-        cursor: pointer;
-
-    }
 }
