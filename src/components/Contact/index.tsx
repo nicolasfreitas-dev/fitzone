@@ -9,8 +9,8 @@ export default function Contact() {
                 src={contactImg}
                 alt="Imagem de fundo da seção de contato"
                 loading="lazy"
-                width={1152}
-                height={768}
+                width={500}
+                height={500}
             />
             <div className="contact__overlay"></div>
             <div className="contact__text">
