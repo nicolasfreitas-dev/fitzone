@@ -1,20 +1,43 @@
 .hero {
-    min-height: 100vh;
+   position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 0 4rem;
 
-    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 
-    background-image: url("/hero-image.webp");
-    background-color: var(--primary-black);
+    background-image: url("../../assets/hero-img.webp");
     background-size: cover;
-    background-position: center calc(100% + 100px);
     background-repeat: no-repeat;
+    background-position: center calc(100% + 100px);
 
     padding: 8.7rem 4rem 0rem 4rem;
 
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+
+        width: 100%;
+        height: 100%;
+
+        background: rgba(0, 0, 0, 0.4);
+        
+    }
+
     &__banner {
+        position: relative;
+        z-index: 1;
+
+        height: 100%; 
+        
         display: flex;
         flex-direction: column;
-        justify-content: start;
+
         gap: 2.4rem;
 
         &-title {

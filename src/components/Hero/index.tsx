@@ -1,6 +1,6 @@
 import { FacebookLogo, InstagramLogo, TwitterLogo } from "@phosphor-icons/react"
-import "./style.scss"
 import { useSmoothScroll } from "../../hooks/useSmoothScroll";
+import "./style.scss"
 
 export default function Hero() {
     const { handleScroll } = useSmoothScroll();
