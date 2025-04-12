@@ -77,6 +77,13 @@
 
         background-color: var(--terciary-black);
 
+        transition: all ease 0.3s;
+
+            &:hover {
+                    transform: scale(1.02);
+
+            }
+
         cursor: pointer;
 
     }

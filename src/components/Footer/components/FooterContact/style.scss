@@ -36,9 +36,15 @@
 
         color: var(--terciary-black);
 
-        &--hover {
+        &-item {
             cursor: pointer;
 
+            transition: all ease 0.3s;
+
+            &:hover {
+                    transform: scale(1.1);
+
+            }
         }
     }
 }

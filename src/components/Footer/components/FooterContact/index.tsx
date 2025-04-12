@@ -22,15 +22,15 @@ export default function FooterContact() {
             <span className="footer__contact-email">fitzone@gmail.com</span>
             <div className="footer__contact-social">
                 <FacebookLogo
-                    className="footer__contact-social--hover"
+                    className="footer__contact-social-item"
                     size={25}
                 />
                 <InstagramLogo
-                    className="footer__contact-social--hover"
+                    className="footer__contact-social-item"
                     size={25}
                 />
                 <TwitterLogo
-                    className="footer__contact-social--hover"
+                    className="footer__contact-social-item"
                     size={25}
                 />
             </div>
