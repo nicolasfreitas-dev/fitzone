@@ -22,8 +22,6 @@
 
 <img src="./src/assets/fitzone.png" alt="Home page fitzone">
 
-<h4 align="center">🚧 Projeto em construção...  🚧</h4>
-
 <h2 id="#about">📌 Sobre o projeto</h2>
 
 <p>
