@@ -112,8 +112,24 @@
                     transform: scale(1.1);
 
                 }
-    
             }
         }
     }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background-position: center top;
+
+    padding-top: 6rem; // ou menos, conforme altura do header
+    padding-bottom: 2rem;
+  }
+  
+  .hero__banner-title {
+    font-size: 4rem;
+  }
+
+  .hero__banner-text {
+    font-size: 1.6rem;
+  }
 }
