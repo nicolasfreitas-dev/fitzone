@@ -7,28 +7,34 @@ export default function FooterLinks() {
     return (
         <>
             <div className="footer__links">
-                <ul className="footer__links-content">
+                <div className="footer__links-content">
                     <h4 className="footer__links-content-title">Links rápidos</h4>
-                    <li className="footer__links-content-item" onClick={(e) => handleScroll(e, "home")}>Home</li>
-                    <li className="footer__links-content-item" onClick={(e) => handleScroll(e, "about")}>Sobre nós</li>
-                    <li className="footer__links-content-item" onClick={(e) => handleScroll(e, "modalities")}>Modalidades</li>
-                    <li className="footer__links-content-item" onClick={(e) => handleScroll(e, "plans")}>Planos</li>
-                    <li className="footer__links-content-item" onClick={(e) => handleScroll(e, "contact")}>Contact</li>
-                </ul>
-                <ul className="footer__links-content">
+                    <ul className="footer__links-content-list">
+                        <li className="footer__links-content-list-item" onClick={(e) => handleScroll(e, "home")}>Home</li>
+                        <li className="footer__links-content-list-item" onClick={(e) => handleScroll(e, "about")}>Sobre nós</li>
+                        <li className="footer__links-content-list-item" onClick={(e) => handleScroll(e, "modalities")}>Modalidades</li>
+                        <li className="footer__links-content-list-item" onClick={(e) => handleScroll(e, "plans")}>Planos</li>
+                        <li className="footer__links-content-list-item" onClick={(e) => handleScroll(e, "contact")}>Contact</li>
+                    </ul>
+                </div>
+                <div className="footer__links-content">
                     <h4 className="footer__links-content-title">Institucional</h4>
-                    <li className="footer__links-content-item">Investidores</li>
-                    <li className="footer__links-content-item">Fale Conosco</li>
-                    <li className="footer__links-content-item">Aviso de Privacidade</li>
-                    <li className="footer__links-content-item">Central de Ajuda</li>
-                </ul>
-                <ul className="footer__links-content">
+                    <ul className="footer__links-content-list">
+                        <li className="footer__links-content-list-item">Investidores</li>
+                        <li className="footer__links-content-list-item">Fale Conosco</li>
+                        <li className="footer__links-content-list-item">Aviso de Privacidade</li>
+                        <li className="footer__links-content-list-item">Central de Ajuda</li>
+                    </ul>
+                </div>
+                <div className="footer__links-content">
                     <h4 className="footer__links-content-title">Corporativo</h4>
-                    <li className="footer__links-content-item">Imprensa</li>
-                    <li className="footer__links-content-item">Quero ser um franqueado</li>
-                    <li className="footer__links-content-item">Divulgue sua marca</li>
-                    <li className="footer__links-content-item">Tranbalhe conosco</li>
-                </ul>
+                    <ul className="footer__links-content-list">
+                        <li className="footer__links-content-list-item">Imprensa</li>
+                        <li className="footer__links-content-list-item">Quero ser um franqueado</li>
+                        <li className="footer__links-content-list-item">Divulgue sua marca</li>
+                        <li className="footer__links-content-list-item">Tranbalhe conosco</li>
+                    </ul>
+                </div>
             </div>
             
         </>
