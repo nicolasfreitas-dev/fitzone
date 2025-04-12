@@ -112,8 +112,51 @@
                     transform: scale(1.1);
 
                 }
-    
             }
         }
     }
+}
+
+/* Mobile first (já ajustado no anterior) */
+@media (max-width: 768px) {
+  .hero {
+    background-position: center 15%;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+  }
+
+  .hero__banner-title {
+    font-size: 3.2rem;
+  }
+
+  .hero__banner-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero {
+    background-position: center 25%;
+    padding-top: 6rem;
+  }
+
+  .hero__banner-title {
+    font-size: 4rem;
+  }
+
+  .hero__banner-text {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .hero {
+    background-position: center 40%;
+  }
+}
+
+@media (min-width: 1441px) {
+  .hero {
+    background-position: center 50%;
+  }
 }
