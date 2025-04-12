@@ -20,7 +20,7 @@
  <a href="#started">Como utilizar o projeto</a>
 </p>
 
-<img src="./src/assets/fitzone-home.png" alt="Home page fitzone">
+<img src="./src/assets/fitzone.png" alt="Home page fitzone">
 
 <h4 align="center">🚧 Projeto em construção...  🚧</h4>
 
